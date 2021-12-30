@@ -1,26 +1,47 @@
+import React, {useState} from 'react';
+
+
+function Task(props) {
+    
+    const [complete, setComplete] = useState(false)
+
+    if (complete) {
+        // do this
+        return (
+            <div style={{
+                cursor: "pointer",
+                textDecoration: "line-through"
+            }} onClick={()=>{
+                setComplete(!complete)
+            }}>
+                {props.text}
+            </div>
+        )
+    } else if (!complete) {
+        // do this
+        return (
+            <div style={{
+                cursor: "pointer"
+        }} onClick={()=>{
+                setComplete(!complete)
+            }}>
+                {props.text}
+            </div>
+        )
+    }
+}
+
 function DailyTask(props){
-
-
 
     return (
         <div className="DailyTask-container">
-            <p>Here is a cute logo from acnh!</p> 
-            <p>Here is your daily to-do list!</p> 
-            <p>Here we will put a daily to do list, with items such as shake trees, hit rocks, plant money tree, etc.</p>
-            <br></br>
-            <form className="form-container">
-
-
-                <div className="check-item">
-                    <label> Shake Trees
-                        <input
-                            type="checkbox"
-                            name="trees"
-                            checked="false"
-                        />
-                    </label>
-                </div>
-            </form>
+            <img className="acnh-logo" src={require("../acnh.jpeg")} alt="acnh logo"/> 
+            <h1>Daily Island Tasks</h1> 
+            <Task text={"Shake Trees"}/>
+            <Task text={"Hit Rocks"}/>
+            <Task text={"Find Fossils"}/>
+            <Task text={"Nook Terminal"}/>
+            <Task text={"Plant Money Tree"}/>            
         </div>
     )
 }

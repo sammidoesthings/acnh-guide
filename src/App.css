@@ -5,3 +5,18 @@
 body {
   background-color: #f8bc68;
 }
+
+.DailyTask-container, .Passport-container, .Homepage-container, .Newsletter-container, .StalkMarket-container, .Wardrobe-container {
+  border: 2px solid purple;
+}
+
+
+
+/* DailyTask Styles */
+/* DailyTask Styles */
+/* DailyTask Styles */
+
+.acnh-logo {
+  length: 200px;
+  width: 250px;
+}
