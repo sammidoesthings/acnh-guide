@@ -17,6 +17,15 @@ body {
 /* DailyTask Styles */
 
 .acnh-logo {
-  length: 200px;
   width: 250px;
+}
+
+/* Homepage Styles */
+/* Homepage Styles */
+/* Homepage Styles */
+
+.wallpaper{
+  top: 0;
+  position: fixed;
+  z-index: -1;
 }
