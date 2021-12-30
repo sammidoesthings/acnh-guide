@@ -10,7 +10,11 @@ body {
   border: 2px solid purple;
 }
 
+/* Universal Styles */
 
+.bold {
+  font-weight: bold;
+}
 
 /* DailyTask Styles */
 /* DailyTask Styles */
@@ -24,8 +28,13 @@ body {
 /* Homepage Styles */
 /* Homepage Styles */
 
-.wallpaper{
+.wallpaper {
   top: 0;
   position: fixed;
   z-index: -1;
+}
+
+.homepage-h1 {
+  font-size: 100px;
+  text-align: center;
 }
