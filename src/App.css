@@ -16,6 +16,45 @@ body {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+  color: darkgreen;
+}
+
+/* Header / Footer Styling */
+/* Header / Footer Styling */
+/* Header / Footer Styling */
+
+.Header-container {
+  height: 6vh;
+  background-color: peachpuff;
+  font-family: 'Amatic SC';
+  font-size: 4vh;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+}
+
+.nav-links, .footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.Footer-container {
+  height: 3vh;
+  background-color: peachpuff;
+  font-size: 1.75vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+  text-decoration: underline;
+}
+
+
+
+
 /* DailyTask Styles */
 /* DailyTask Styles */
 /* DailyTask Styles */
@@ -35,6 +74,6 @@ body {
 }
 
 .homepage-h1 {
-  font-size: 100px;
+  font-size: 60px;
   text-align: center;
 }
