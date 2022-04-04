@@ -14,7 +14,7 @@ function Header(){
 
                 <div>
                     <Link to="/dailytask">DailyNook</Link>
-                    </div>
+                </div>
 
                 <div>
                     <Link to="/newsletter">Newsletter</Link>
@@ -26,6 +26,10 @@ function Header(){
 
                 <div>
                     <Link to="/wardrobe">Wardrobe</Link>
+                </div>
+
+                <div>
+                    <Link to="/villagers">Villagers</Link>
                 </div>
             </div>
         </div>
@@ -58,6 +62,10 @@ function Footer(){
 
                 <div>
                     <Link to="/wardrobe">wardrobe</Link>
+                </div>
+                
+                <div>
+                    <Link to="/villagers">Villagers</Link>
                 </div>
             </div>
         </div>

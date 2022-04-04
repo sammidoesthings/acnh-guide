@@ -11,6 +11,7 @@ import DailyTask from './components/DailyTask';
 import Newsletter from './components/Newsletter';
 import StalkMarket from './components/StalkMarket';
 import Wardrobe from './components/Wardrobe';
+import Villagers from './components/Villagers'
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/newsletter" element={<Newsletter/>}/>
           <Route path="/stalkmarket" element={<StalkMarket/>}/>
           <Route path="/wardrobe" element={<Wardrobe/>}/>
+          <Route path="/villagers" element={<Villagers/>}/>
           <Route path="*" element={<Homepage/>}/>
 
         </Routes>

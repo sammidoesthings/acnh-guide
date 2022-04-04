@@ -6,8 +6,9 @@ body {
   background-color: #f8bc68;
 }
 
-.DailyTask-container, .Passport-container, .Homepage-container, .Newsletter-container, .StalkMarket-container, .Wardrobe-container {
+.DailyTask-container, .Passport-container, .Homepage-container, .Newsletter-container, .StalkMarket-container, .Wardrobe-container, .Villager-container {
   border: 2px solid purple;
+  padding: 10px;
 }
 
 /* Universal Styles */

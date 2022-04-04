@@ -19,6 +19,8 @@ function Homepage(){
                 <li><span className="bold">· StalkMarket:</span> Nook Cranny's AM and PM turnip prices, recorded every day (except Sunday!)</li>
 
                 <li><span className="bold">· Wardrobe:</span> Mix and match new outfit pieces from the entire Nook universe catalog!</li>
+                
+                <li><span className="bold">· Villager List:</span> See a list of villagers!</li>
             </ul>
         </div>
     )
